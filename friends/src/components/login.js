@@ -2,7 +2,6 @@ import React from 'react';
 
 import { axiosWithAuth } from '../utils/axiosWithAuth';
 import { Redirect } from 'react-router-dom';
-import { defaultCipherList } from 'constants';
 
 class Login extends React.Component {
   state = {
