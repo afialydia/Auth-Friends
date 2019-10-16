@@ -20,7 +20,7 @@ const FriendsList = () => {
 
 	return (
 		<div>
-            <FriendForm />
+            <FriendForm setFriends={setFriends} />
 			<h2>My Friends</h2>
 			{friends.map(friendObj => {
 				return <div key={friendObj.id}> {friendObj.name}</div>;
